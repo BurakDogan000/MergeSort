@@ -1,2 +1,22 @@
 # MergeSort
-Patika.dev MergeSort Proje Ödevi
+
+[16,21,11,8,12,22] => Merge Sort
+
+Step 1: 
+[16,21,11]  [8,12,22]
+
+Step 2: 
+[16] [21,11]  [8] [12.22]
+
+Step 3:
+[16] [21] [11]  [8] [12] [22]
+
+Step 4:
+[11,16,21]  [8,12,22]
+
+Step 5: 
+[8,11,12,16,21,22]
+
+#### Big-O-Notation
+
+n + [(n/2) + (n/2)] + 4(n/2) + 6(n/2) + 1 -----> 2^x = n => O(logn) * O(n) (n complexity)-----> O(n*logn)
